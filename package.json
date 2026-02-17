@@ -3,7 +3,7 @@
     "displayName": "Niuma Writer",
     "description": "模拟打字效果的插件，逐个字符显示文本内容",
     "publisher": "shanbai",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.70.0"
     },
