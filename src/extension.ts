@@ -34,7 +34,6 @@ export function activate(context: vscode.ExtensionContext) {
             }).then(success => {
                 if (success) {
                     isActive = true;
-                    vscode.window.showInformationMessage('niuma_writer 已激活，开始输入吧！');
                 }
             });
         } 
@@ -57,14 +56,12 @@ export function activate(context: vscode.ExtensionContext) {
                                 originalText = null;
                                 currentPosition = 0;
                                 originalIsDirty = false;
-                                vscode.window.showInformationMessage('niuma_writer 已停用');
                             });
                         } else {
                             isActive = false;
                             originalText = null;
                             currentPosition = 0;
                             originalIsDirty = false;
-                            vscode.window.showInformationMessage('niuma_writer 已停用');
                         }
                     }
                 });
